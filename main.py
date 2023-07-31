@@ -1,1 +1,1 @@
-primer trabajo 
+print ("hola mundo")
