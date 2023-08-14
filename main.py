@@ -56,14 +56,47 @@
 #print("es un gran número!")
 
 #ejercicio2
-N = int(input("introduce un numero positivo: "))
-M = int(input("introduce un numero distinto a cero: "))
-C = int( N//M )
-R = int( N & M )
-print ( N%M, N//M)
-if C < 1:
-    print("El divisor es mayor al dividendo")
-elif C > 1:
-    print("El divisor es menor al dividendo")
-elif C == 1:
-    print("El divisor y el dividendo son iguales")
+#N = int(input("introduce un numero positivo: "))
+#M = int(input("introduce un numero distinto a cero: "))
+#C = int( N//M )
+#R = int( N & M )
+#print ( N%M, N//M)
+#if C < 1:
+    #print("El divisor es mayor al dividendo")
+#elif C > 1:
+    #print("El divisor es menor al dividendo")
+#elif C == 1:
+    #print("El divisor y el dividendo son iguales")
+
+#ejercicio3
+#C = float(input("introduce la cantidad a invertir: "))
+#I = int(input("introduce el interes anual: "))
+#A = int(input("introduce el número de años: "))
+#F = int( C * ((I/100) +1)**A)
+#if F < 100000:
+ #print("tu inversion es de baja rentabilidad ", F)
+#elif F < 100000 and F > 1000000:
+  #print("tu inversion es de rentabilidad moderada ", F)
+#elif F > 1000000:
+  #print("tu inversion es bastante buena ", F)
+
+#ejercicio4
+#P = int(input("cantidad de payasos: "))
+#M = int(input("cantidad de muñecas: "))
+#R = round ((int(P) * 112) + (int(M) * 75))
+#X = ""
+#print(R)
+#if R > 3000000:
+  #X = input("¿quiere enviarla? ")
+  #if X == "si":
+      #print("contenedor enviado")
+  #elif X == "no":
+      #print("contenedor no enviado")
+  #else:
+    #print("valor no valido")
+
+#else:
+  #print("fue enviado")
+
+#ejercicio5
+C = float("ingrese la cantidad de dinero depositada")
