@@ -99,4 +99,67 @@
   #print("fue enviado")
 
 #ejercicio5
-C = float("ingrese la cantidad de dinero depositada")
+#C = float("ingrese la cantidad de dinero depositada")
+#ejercicio6
+
+#ejercicio1
+#num1 = int(input("ingresar primer número "))
+#num2 = int(input("ingresar segundo número "))
+#def fun(num1,num2):
+  #S = num1 + num2
+  #return S
+#suma = fun(num1,num2)
+#print("el resultado es:", suma)
+
+#ejercicio2
+#num1 = int(input("ingresar primer número "))
+#num2 = int(input("ingresar segundo número "))
+#def fun(num1,num2):
+  #S = num1 - num2
+  #return S
+#resta = fun(num1,num2)
+#print("el resultado es:", resta)
+
+#ejercicio3
+#num1 = int(input("ingresar el primer número "))
+#num2 = int(input("ingresar el segundo número "))
+#def F(num1,num2):
+    #P = num1 * num2 
+    #return P
+#producto = F(num1,num2)
+#print("el resultado es: ", producto)
+
+#ejercicio4
+#num1 = int(input("ingresar el primer número "))
+#num2 = int(input("ingresar el segundo número "))
+#def fun(num1,num2):
+    #D = num2 / num1 
+    #return D
+#Division = fun(num1,num2)
+#if num2 == 0:
+    #print("no se pueda realizar esta operación")
+#elif num1 == 0:
+    #print("no se puede realizar esta operación")
+#else:
+    #print("el resultado de la operación es: ",Division)
+
+#ejercicio5
+num1 = float(input("primer número "))
+num2 = float(input("segundo número "))
+O = str(input("¿que operación deseas? suma, resta, multiplicacion, division "))
+if O == suma:
+    S = num1 + num2
+  return S
+suma = fun(num1,num2)
+
+elif O == resta:
+  resta = fun(num1 - num2)
+  print(resta)
+  
+elif O == multiplicacion:
+  P = fun(num1 * num2)
+  print(P)
+
+elif O == division:
+  Division = fun(num1/num2)
+print(Division)
