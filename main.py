@@ -144,22 +144,32 @@
     #print("el resultado de la operación es: ",Division)
 
 #ejercicio5
-num1 = float(input("primer número "))
-num2 = float(input("segundo número "))
-O = str(input("¿que operación deseas? suma, resta, multiplicacion, division "))
-if O == suma:
-    S = num1 + num2
-  return S
-suma = fun(num1,num2)
-
-elif O == resta:
-  resta = fun(num1 - num2)
-  print(resta)
+#ejercicio6
+#def intereses(inv):
+    #d= inv
+    #if (d > 0 and d<1000000):
+    #    return 2
+    #elif(d>=1000000 and d <2000000):
+    #    return 5
+    #else:
+    #    return 7
   
-elif O == multiplicacion:
-  P = fun(num1 * num2)
-  print(P)
+#def calBalance(int, inv):
+  #n = int
+  #d = inv
+  #return round((d*(1+(n/100))),2)
 
-elif O == division:
-  Division = fun(num1/num2)
-print(Division)
+#def ctaAhorro():
+ #inversion, interes, b1, b2, b3 = 0.0
+  #inversion = float(input("ingrese el valor de la inversión: "))
+  #interes = intereses(inversion)
+  #b1 = calBalance(interes, inversion)
+  #b2 = calBalance(interes, b1,)
+  #b3 = calBalance(interes, b2)
+
+  #print("balance año 1: " + str(b1) + " Balance año 2: " + str(b2) + " Balance año 3: " + str(b3))
+
+#ctaAhorro()
+
+#ejercicio1
+def AreasFig
